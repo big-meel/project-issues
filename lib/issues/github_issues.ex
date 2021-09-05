@@ -22,5 +22,5 @@ defmodule Issues.GithubIssues do
   end
 
   defp check_for_error(200), do: :ok
-  defp check_for_errors(_), do:  :error
+  defp check_for_error(_), do:  :error
 end
